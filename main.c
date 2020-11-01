@@ -1,10 +1,19 @@
 #include<stdio.h>
-int main 
+int main ()
 {
-int a,b,c;
-a=10;
-b=20;
-c=50;
-printf("donner les valeur des a b et c %d%d%d  ",a,b,c)
-return 0 ;
+int a ;
+int b;
+printf("\n saisie du premier nombre ");
+scanf("%d",&a);
+do
+{
+printf("\n saisie du seconde nombre ");
+scanf("%d",&b);
 }
+while(b==0);
+printf("\n %d+%d=%d,a,b,a+b);
+printf("\n %d-%d=%d,a,b,a-b);
+printf("\n %d/%d=%d,a,b,(float)a/b);
+return (0);
+}
+
